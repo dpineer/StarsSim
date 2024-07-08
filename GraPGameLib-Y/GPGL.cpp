@@ -76,7 +76,7 @@ float LaunchBlueShift(double PersentofC)
 {
 	double UPOC,DWNOC,CALUMC;
 	UPOC = PersentofC;
-	DWNOC = PersentofC
+	DWNOC = PersentofC; 
 	UPOC += 1.0;  
 	DWNOC += 1.0;
 	CALUMC = UPOC/DWNOC;
@@ -112,7 +112,7 @@ float TargetVDemandDysonPower(double PersentofC)
 	UPOC = 1.0+PersentofC;
 	DWNOC = 2.0 / UPOC;
 	DWNOC -= 1.0;
-	CALUMC = 1.0/DWNOC
+	CALUMC = 1.0/DWNOC;
 	return CALUMC;
 }
 //减速花费光束总能量计算 
